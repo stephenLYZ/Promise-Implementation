@@ -4,7 +4,7 @@
   "description": "A Promise",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "promises-aplus-tests Aromise.js",
     "build": "rollup -c",
     "dev": "rollup -c -w"
   },
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/stephenLYao/Aromise#readme",
   "dependencies": {
     "babel-preset-latest": "^6.24.1",
+    "promises-aplus-tests": "^2.1.2",
     "rollup": "^0.45.2",
     "rollup-plugin-babel": "^2.7.1"
   }
