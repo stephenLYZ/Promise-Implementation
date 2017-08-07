@@ -4,7 +4,7 @@
   "description": "A Promise",
   "main": "index.js",
   "scripts": {
-    "test": "promises-aplus-tests Aromise.js",
+    "test": "promises-aplus-tests lib/Aromise.js",
     "build": "rollup -c",
     "dev": "rollup -c -w"
   },
