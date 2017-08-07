@@ -1,0 +1,27 @@
+{
+  "name": "Aromise",
+  "version": "1.0.0",
+  "description": "A Promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenLYao/Aromise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenLYao/Aromise/issues"
+  },
+  "homepage": "https://github.com/stephenLYao/Aromise#readme",
+  "dependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "rollup": "^0.45.2",
+    "rollup-plugin-babel": "^2.7.1"
+  }
+}
