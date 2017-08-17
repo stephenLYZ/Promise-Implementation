@@ -1,8 +1,8 @@
 {
   "name": "Aromise",
   "version": "1.0.0",
-  "description": "A Promise",
-  "main": "index.js",
+  "description": "A Promise/A+ realize",
+  "main": "lib/aromise.js",
   "scripts": {
     "test": "promises-aplus-tests lib/Aromise.js",
     "build": "rollup -c",
