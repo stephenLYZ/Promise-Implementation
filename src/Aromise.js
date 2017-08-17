@@ -1,3 +1,3 @@
-export default {
-  demo: () => { console.log('hello')}
+class Aromise {
+  
 }
