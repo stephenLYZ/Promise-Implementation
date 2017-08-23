@@ -4,7 +4,7 @@
   "description": "A Promise/A+ realize",
   "main": "lib/aromise.js",
   "scripts": {
-    "test": "promises-aplus-tests lib/Aromise.js",
+    "test": "node ./test/test.js",
     "build": "rollup -c",
     "dev": "rollup -c -w"
   },
@@ -23,6 +23,7 @@
     "babel-preset-latest": "^6.24.1",
     "promises-aplus-tests": "^2.1.2",
     "rollup": "^0.45.2",
-    "rollup-plugin-babel": "^2.7.1"
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-watch": "^4.3.1"
   }
 }
